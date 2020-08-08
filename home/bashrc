@@ -31,4 +31,7 @@ eval "$(pyenv init -)"
 # For direnv
 eval "$(direnv hook bash)"
 
+alias sensen="sentry devserver --workers"
+alias gengen="getsentry devserver --workers"
+
 export PATH
